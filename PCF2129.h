@@ -1,7 +1,7 @@
 #pragma once
 #include <i2c_t3.h>
 
-class RtcPCF2129
+class PCF2129
 {
     enum RTC_REG
     {
@@ -22,7 +22,7 @@ public:
     const uint8_t pin_INT;
     volatile bool b_interrupt;
 
-    RtcPCF2129(uint8_t pin_int)
+    PCF2129(uint8_t pin_int)
     : RTC_ADDR(0x51)
     , pin_INT(pin_int)
     {

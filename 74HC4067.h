@@ -1,15 +1,15 @@
 #pragma once
-#include "IoExPCA9536.h"
+#include "PCA9536.h"
 
-class Mux74HC4067
+class 74HC4067
 {
     #define MUX_PORT_SIZE 16
-    IoExPCA9536 ioex;
+    PCA9536 ioex;
     const uint8_t pin_z;
 
 
 public:
-    Mux74HC4067()
+    74HC4067()
     : pin_z(PIN_MUX_OUT)
     {
 

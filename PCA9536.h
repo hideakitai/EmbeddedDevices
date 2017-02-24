@@ -1,7 +1,7 @@
 #pragma once
 #include <i2c_t3.h>
 
-class IoExPCA9536
+class PCA9536
 {
     enum IOEX_REG
     {
@@ -36,11 +36,11 @@ class IoExPCA9536
 public:
 
 
-    IoExPCA9536()
+    PCA9536()
     : ioex_reg_status({0xFF})
     {}
 
-    ~IoExPCA9536()
+    ~PCA9536()
     {}
 
     void setup()
@@ -112,7 +112,7 @@ public:
     {
         Serial.printf("IOEX REG %d : %02x\n", reg, ioex_reg_status[reg]);
     }
-    
+
     void print()
     {
         for (size_t i = 0; i < IOEX_REG_SIZE; ++i) print((IOEX_REG)i);
