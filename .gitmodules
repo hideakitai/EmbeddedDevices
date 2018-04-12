@@ -1,0 +1,18 @@
+[submodule "PCF2129"]
+	path = PCF2129
+	url = https://github.com/hideakitai/PCF2129.git
+[submodule "PCA9536"]
+	path = PCA9536
+	url = https://github.com/hideakitai/PCA9536.git
+[submodule "MAX17048"]
+	path = MAX17048
+	url = https://github.com/hideakitai/MAX17048.git
+[submodule "IM920"]
+	path = IM920
+	url = https://github.com/hideakitai/IM920.git
+[submodule "PCA9547"]
+	path = PCA9547
+	url = https://github.com/hideakitai/PCA9547.git
+[submodule "TFMini"]
+	path = TFMini
+	url = https://github.com/hideakitai/TFmini.git
