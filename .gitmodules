@@ -16,3 +16,15 @@
 [submodule "TFMini"]
 	path = TFMini
 	url = https://github.com/hideakitai/TFmini.git
+[submodule "MPU9250"]
+	path = MPU9250
+	url = https://hideakitai@github.com/hideakitai/MPU9250.git
+[submodule "MCP4728"]
+	path = MCP4728
+	url = https://hideakitai@github.com/hideakitai/MCP4728.git
+[submodule "DRV2667"]
+	path = DRV2667
+	url = https://hideakitai@github.com/hideakitai/DRV2667.git
+[submodule "L6470Stepper"]
+	path = L6470Stepper
+	url = https://hideakitai@github.com/hideakitai/L6470Stepper.git
