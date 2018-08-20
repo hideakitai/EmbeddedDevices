@@ -1,0 +1,20 @@
+{
+    "name": "EmbeddedDevices",
+    "keywords": "wifi,udp,serial,uart,i2c,spi",
+    "description": "collections of device specific wrapper",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/hideakitai/EmbeddedDevices.git"
+    },
+    "authors":
+    {
+        "name": "Hideaki Tai",
+        "url": "https://github.com/hideakitai",
+        "maintainer": true
+    },
+    "version": "0.1.0",
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "*"
+}
